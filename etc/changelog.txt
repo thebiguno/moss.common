@@ -1,3 +1,6 @@
+2.0.2.0 - June 1 2009
+-Added LogUtil to help set up Java Logger API programatically
+
 2.0.1.0 - May 22 2009
 -Added StreamUtil to remove dependency on Apache Commons Net
 
