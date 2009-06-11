@@ -226,11 +226,13 @@ public class ParseCommands {
 			return parseVariables.get(flag);
 		}
 		
-		public Boolean getBoolean(String flag){
-			if (parseVariables.get(flag).getType().equals(Boolean.class))
-				return (Boolean) parseVariables.get(flag).getValue();
+		public boolean getBoolean(String flag){
+			if (parseVariables.get(flag).getType().equals(Boolean.class)){
+				if (parseVariables.get(flag).getValue() != null)
+					return (Boolean) parseVariables.get(flag).getValue();				
+			}
 		
-			return null;
+			return false;
 		}
 
 		public String getString(String flag){

@@ -62,12 +62,13 @@ public class LogUtil {
 	}
 	
 	/**
-	 * Helper class which sets the log level for all thecave loggers ("org.homeunix.thecave" 
-	 * and children) to the given log value, defaulting to Level.INFO if the logLevel string 
-	 * is not a valid log level.
+	 * Helper class which sets the log level for all thecave loggers ("org.homeunix.thecave",
+	 * "ca.digitalcave", and children) to the given log value, defaulting to Level.INFO if 
+	 * the logLevel string is not a valid log level.
 	 * @param logLevel Log level to set; one of SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST.
 	 */
 	public static void setLogLevel(String logLevel){
 		setLogLevel("org.homeunix.thecave", logLevel, Level.INFO);
+		setLogLevel("ca.digitalcave", logLevel, Level.INFO);
 	}
 }
