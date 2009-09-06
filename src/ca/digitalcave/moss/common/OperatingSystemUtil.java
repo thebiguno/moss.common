@@ -1,7 +1,7 @@
 /*
  * Created on Dec 28, 2006 by wyatt
  */
-package org.homeunix.thecave.moss.common;
+package ca.digitalcave.moss.common;
 
 import java.io.File;
 

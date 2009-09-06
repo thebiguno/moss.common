@@ -1,7 +1,7 @@
 /*
  * Created on Oct 6, 2006 by wyatt
  */
-package org.homeunix.thecave.moss.common;
+package ca.digitalcave.moss.common;
 
 import java.awt.Image;
 import java.awt.Toolkit;

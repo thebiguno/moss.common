@@ -1,7 +1,7 @@
 /*
  * Created on Apr 23, 2007 by wyatt
  */
-package org.homeunix.thecave.moss.common;
+package ca.digitalcave.moss.common;
 
 import java.io.BufferedReader;
 import java.io.File;

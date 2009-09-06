@@ -1,4 +1,4 @@
-package org.homeunix.thecave.moss.common;
+package ca.digitalcave.moss.common;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

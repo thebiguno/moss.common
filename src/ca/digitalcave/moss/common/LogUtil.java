@@ -1,4 +1,4 @@
-package org.homeunix.thecave.moss.common;
+package ca.digitalcave.moss.common;
 
 import java.util.logging.Handler;
 import java.util.logging.Level;

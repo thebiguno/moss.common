@@ -1,4 +1,4 @@
-package org.homeunix.thecave.moss.common;
+package ca.digitalcave.moss.common;
 import java.text.ParseException;
 import java.util.Collection;
 import java.util.HashMap;
